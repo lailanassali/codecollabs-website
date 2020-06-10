@@ -1,0 +1,23 @@
+{
+  "name": "cc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lailanassali/codecollabs-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lailanassali/codecollabs-website/issues"
+  },
+  "homepage": "https://github.com/lailanassali/codecollabs-website#readme",
+  "dependencies": {
+    "locomotive-scroll": "^3.5.4",
+    "sal.js": "^0.7.6"
+  }
+}

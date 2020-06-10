@@ -1,0 +1,25 @@
+/* line 1, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+body,
+html {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#26A9A2, #CEDD7A); }
+
+/* line 9, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+body {
+  font-family: 'Montserrat'; }
+
+/* line 13, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+section {
+  height: calc(100vh - 8em);
+  padding: 4em;
+  align-items: center; }
+
+/* line 22, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+h1 {
+  font-size: 6em;
+  text-transform: uppercase;
+  line-height: 9em; }
+
+/*# sourceMappingURL=main.css.map */
