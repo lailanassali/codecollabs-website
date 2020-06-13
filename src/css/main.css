@@ -211,15 +211,16 @@ body {
     border-right: none;
     border-top: none;
     background: black;
-    margin-top: 0.5em; }
-  /* line 276, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+    margin-top: 0.5em;
+    color: white; }
+  /* line 277, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .text-input::placeholder {
     color: white;
     font-family: MontserratL; }
-  /* line 281, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 282, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .text-btn {
     margin-bottom: 1.5em; }
-    /* line 283, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+    /* line 284, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
     .footer .text-btn .btn {
       background: white;
       border-radius: 4px;
@@ -231,7 +232,7 @@ body {
       font-size: 0.7em;
       border: solid white;
       text-transform: uppercase; }
-    /* line 298, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+    /* line 299, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
     .footer .text-btn .btn:hover {
       background: none;
       color: white;
