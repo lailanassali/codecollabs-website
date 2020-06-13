@@ -13,6 +13,12 @@
     src: url(fonts/Montserrat/Montserrat-Light.ttf);
 }
 
+@font-face {
+    font-family: IntegralR;
+    src: url(fonts/IntegralCF/IntegralCF-Regular.otf);
+}
+
+
 body {
     background: black;
     margin: 0;
@@ -104,7 +110,84 @@ body {
 .content {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    h1 {
+        margin-top: 0;
+        color: white;
+        font-family: IntegralR;
+        text-align: center;
+    }
+
+    .box1 {
+        li {
+            color: white;
+        }
+
+        span {
+            color: #DCED31;
+        }
+    }
+
+    .box2 {
+        span {
+            color: #10949A;
+        }
+    }
+
+    .box3,
+    .box4 {
+
+        h1 {
+            color: black;
+        }
+
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em 15px;
+
+        ul {
+            text-align: center;
+            list-style-type: none;
+            color: black;
+            font-family: NeueMetanaB;
+            font-size: 0.7em;
+            padding: 0;
+
+
+            li {
+                padding-bottom: 1em;
+            }
+        }
+
+        p {
+            font-family: NeueMetanaB;
+            font-size: 0.7em;
+            text-align: center;
+
+        }
+    }
+
+    .box1 {
+        background-color: #10949A;
+
+    }
+
+    .box2 {
+        background-color: #DCED31;
+    }
+
+    .box3 {
+        background-color: #C7E1E0;
+    }
+
+    .box4 {
+        background-color: #ECF498;
+    }
 }
 
 /**
