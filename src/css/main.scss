@@ -96,7 +96,7 @@ body {
         position: absolute;
         right: 0;
         bottom: -5.5em;
-        animation: glitch1 2s infinite;
+        //animation: glitch1 2s infinite;
 
     }
 }
@@ -227,11 +227,11 @@ body {
         margin-left: 1em;
         margin-top: 3em;
     }
-    
+
     .socials {
         margin-bottom: 0.7em;
     }
-    
+
     .clamp {
         font-size: 10px;
         margin-bottom: 2.5em;
@@ -242,11 +242,11 @@ body {
         padding-left: 0;
         margin-top: 0;
     }
-    
+
     li {
         margin-bottom: 0.8em;
     }
-    
+
 
     .footer-logo {
         width: 15%;
@@ -280,30 +280,29 @@ body {
     }
 
     .text-btn {
-                    margin-bottom: 1.5em;
-        .btn {
-            background: white;
-            border-radius: 4px;
-            color: black;
-            font-family: NeueMetanaB;
-            text-decoration: none;
-            cursor: pointer;
-            padding: 0.4em 3em;
-            font-size: 0.7em;
-            border: solid white;
-            text-transform: uppercase;
+        margin-bottom: 1.5em;
+        font-family: NeueMetanaB;
+        text-transform: uppercase;
+        background: white;
+        border-radius: 4px;
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 0.4em 3em;
+        font-size: 0.7em;
+        border: solid white;
+        text-transform: uppercase;
+        width: 30%;
+        justify-self: center;
+
+    }
 
 
-        }
-
-        .btn:hover {
-            background: none;
-            color: white;
-            text-decoration: none;
-            border: solid whie 2px;
-        }
-
-
+    .text-btn:hover {
+        background: none;
+        color: white;
+        text-decoration: none;
+        border: solid whie 2px;
     }
 
 

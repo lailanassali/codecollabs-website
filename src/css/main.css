@@ -77,8 +77,7 @@ body {
   .header .icon {
     position: absolute;
     right: 0;
-    bottom: -5.5em;
-    animation: glitch1 2s infinite; }
+    bottom: -5.5em; }
 
 /* line 104, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
 .main-title {
@@ -219,25 +218,26 @@ body {
     font-family: MontserratL; }
   /* line 282, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .text-btn {
-    margin-bottom: 1.5em; }
-    /* line 284, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
-    .footer .text-btn .btn {
-      background: white;
-      border-radius: 4px;
-      color: black;
-      font-family: NeueMetanaB;
-      text-decoration: none;
-      cursor: pointer;
-      padding: 0.4em 3em;
-      font-size: 0.7em;
-      border: solid white;
-      text-transform: uppercase; }
-    /* line 299, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
-    .footer .text-btn .btn:hover {
-      background: none;
-      color: white;
-      text-decoration: none;
-      border: solid whie 2px; }
+    margin-bottom: 1.5em;
+    font-family: NeueMetanaB;
+    text-transform: uppercase;
+    background: white;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.4em 3em;
+    font-size: 0.7em;
+    border: solid white;
+    text-transform: uppercase;
+    width: 30%;
+    justify-self: center; }
+  /* line 301, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  .footer .text-btn:hover {
+    background: none;
+    color: white;
+    text-decoration: none;
+    border: solid whie 2px; }
 
 /**
 
