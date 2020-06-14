@@ -287,17 +287,50 @@
 /** MENTORS **/
 .content-mentors {
 
-    
-    img {
-        width: 80%;
-    }
-
-
 
 
 
 }
 
+.slick-slide img {
+
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 2em;
+    
+}
+
+.slick-prev {
+  visibility: hidden;
+}
+
+.slick-prev:after {
+    visibility: visible;
+    content: '<';
+    font-size: 2em;
+    position: absolute;
+    left: 0.6em;
+    color: white;
+    top: 6.5em;
+    z-index: 999;
+    
+}
+
+.slick-next {
+    visibility: hidden;
+}
+
+.slick-next:after {
+    visibility: visible;
+    content: '>';
+    position: absolute;
+    right: 0.6em;
+    font-size: 2em;
+    color: white;
+    top: 6.5em;
+    z-index: 999;
+
+}
 
 .footer {
     display: grid;
