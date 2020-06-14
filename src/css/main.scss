@@ -19,11 +19,23 @@
 }
 
 
-body {
-    background: black;
+.home-background, .interview-background {
+    background: white;
     margin: 0;
     padding: 0;
 }
+
+.mentors-background {
+    height: 700px;
+    background-image:
+        linear-gradient(to bottom,
+            #26A9A2,
+            white 100%);
+    margin: 0;
+    padding: 0;
+
+}
+
 
 .wrapper {
     height: 100vh;
@@ -101,11 +113,16 @@ body {
     }
 }
 
-.main-title {
+.main-title h1,
+.main-title-mentors h1 {
     font-family: NeueMetanaB;
     color: white;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1.3em;
+    background: black;
+    margin: 0;
+    padding: 0.9em;
+    justify-content: center;
 }
 
 .content {
@@ -121,7 +138,9 @@ body {
 
     }
 
-    .box1 {
+    .box1,
+    .box1-interview {
+
         li {
             color: white;
         }
@@ -131,14 +150,19 @@ body {
         }
     }
 
-    .box2 {
+
+
+    .box2,
+    .box2-interview {
         span {
             color: #10949A;
         }
     }
 
     .box3,
-    .box4 {
+    .box4,
+    .box1-interview,
+    .box2-interview {
 
         h1 {
             color: black;
@@ -146,7 +170,32 @@ body {
 
     }
 
-    div {
+    .box1,
+    .box1-interview {
+        background-color: #10949A;
+    }
+
+    .box2,
+    .box2-interview {
+        background-color: #DCED31;
+    }
+
+    .box3 {
+        background-color: #C7E1E0;
+    }
+
+    .box4 {
+        background-color: #ECF498;
+    }
+
+    .box1-interview,
+    .box2-interview {}
+
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -170,26 +219,68 @@ body {
             font-family: NeueMetanaB;
             font-size: 0.7em;
             text-align: center;
-
         }
     }
 
-    .box1 {
-        background-color: #10949A;
+
+}
+
+/** INTERVIEW PAGE **/
+.content-interview {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    h1 {
+        margin-top: 0;
+        color: white;
+        font-family: IntegralR;
+        text-align: center;
 
     }
 
-    .box2 {
+    .box1-interview {
+
+        li {
+            color: white;
+        }
+
+        span {
+            color: #DCED31;
+        }
+    }
+
+    .box2-interview {
+        span {
+            color: #10949A;
+        }
+    }
+
+    .box1-interview,
+    .box2-interview {
+
+        h1 {
+            color: black;
+        }
+
+    }
+
+    .box1-interview {
+        background-color: #10949A;
+    }
+
+    .box2-interview {
         background-color: #DCED31;
     }
 
-    .box3 {
-        background-color: #C7E1E0;
+    .box1-interview,
+    .box2-interview {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 9.25em 15px;
     }
 
-    .box4 {
-        background-color: #ECF498;
-    }
 }
 
 .footer {
@@ -246,7 +337,6 @@ body {
     li {
         margin-bottom: 0.8em;
     }
-
 
     .footer-logo {
         width: 15%;
