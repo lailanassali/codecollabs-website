@@ -19,14 +19,15 @@
 }
 
 
-.home-background, .interview-background {
+.home-background,
+.interview-background {
     background: white;
     margin: 0;
     padding: 0;
 }
 
 .mentors-background {
-    height: 700px;
+    height: 100%;
     background-image:
         linear-gradient(to bottom,
             #26A9A2,
@@ -282,6 +283,21 @@
     }
 
 }
+
+/** MENTORS **/
+.content-mentors {
+
+    
+    img {
+        width: 80%;
+    }
+
+
+
+
+
+}
+
 
 .footer {
     display: grid;
