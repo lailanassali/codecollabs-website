@@ -320,7 +320,6 @@
     left: 0.2em;
     color: white;
     top: 6.5em;
-    z-index: 999;
     background-color: black;
     width: 15%;
     
@@ -338,14 +337,14 @@
     font-size: 2em;
     color: white;
     top: 6.5em;
-    z-index: 999;
     background-color: black;
-    width: 15%;
+    width: 14%;
 
 }
 
 .slick-disabled {
-    opacity: 20%;
+    opacity: 30%;
+ 
 }
 
 .footer {
