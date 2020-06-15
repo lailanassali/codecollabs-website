@@ -1,5 +1,5 @@
  $(document).ready(function() {
-            $('.content-mentors').slick({
+            $('.ui-mentors').slick({
                 dots: false,
                 infinite: false,
                 speed: 300,
