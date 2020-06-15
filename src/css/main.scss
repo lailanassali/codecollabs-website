@@ -119,7 +119,7 @@
 }
 
 .main-title h1,
-.main-title-mentors h1 {
+.main-title-mentors h1, .main-title-interview h1 {
     font-family: NeueMetanaB;
     color: white;
     text-align: center;
@@ -129,6 +129,11 @@
     padding: 0.9em;
     justify-content: center;
 }
+
+.main-title-interview h1 {
+    padding-bottom: 0;
+}
+
 
 .content {
     display: grid;
