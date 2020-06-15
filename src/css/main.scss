@@ -188,8 +188,7 @@
         background-color: #ECF498;
     }
 
-    .box1-interview,
-    .box2-interview {}
+
 
 
     .box1,
@@ -225,7 +224,64 @@
 
 }
 
-/** INTERVIEW PAGE **/
+.mentor-interview {
+
+    .q1,
+    .q2, .q3, .q4, .q5, .q6, .q7 {
+
+        h1 {
+            color: #333333;
+            text-align: center;
+            font-family: IntegralR;
+        }
+
+        span {
+            color: #DCED31;
+        }
+
+        background-color: #10949A;
+    }
+
+    .q1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 9.25em 15px;
+        margin: 0;
+
+
+    }
+
+    .q2, .q3, .q4, .q5, .q6, .q7 {
+        padding: 1em 15px;
+        text-align: center;
+        
+        h2, p {
+            font-family: IntegralR;
+            margin-left: 1em
+        }
+        
+
+        #a2 {
+            margin-top: 1em;
+            padding: 7em 8.7em;
+            background: #EDEDED;
+            border: none;
+
+        }
+        
+        p {
+            margin-top: 2em;
+        }
+
+    }
+
+
+}
+
+
+
+/** INTERVIEW PAGE 
 .content-interview {
     display: grid;
     grid-template-columns: 1fr;
@@ -279,9 +335,27 @@
         flex-direction: column;
         justify-content: center;
         padding: 9.25em 15px;
+        
+        .btn1-interview, .btn2-interview {
+            position: absolute;
+            width: 35%;
+            background: white;
+            border-radius: 4px;
+            color: black;
+            font-family: NeueMetanaB;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 1em;
+            border: solid white;
+            text-transform: uppercase;
+            right: 2em;
+            margin-top: 9em;
+        }
+        
     }
 
-}
+}**/
+
 
 /** MENTORS **/
 .ui-title {
@@ -334,7 +408,6 @@
         margin-bottom: 0;
     }
 
-
 }
 
 
@@ -383,8 +456,9 @@
     color: white;
     -webkit-text-stroke: 1px black;
     z-index: 999;
-    top: 2.4em;
+    top: 2.6em;
     width: 15%;
+   
 
 
 }

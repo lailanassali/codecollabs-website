@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="has-js has-smooth-scroll">
+<html lang="en">
 
 <head>
     <!-- Required meta tags -->
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/glitch.css">
     <link rel="stylesheet" href="../node_modules/sal.js/dist/sal.css">
+       <link rel="stylesheet" href="css/slick2.css">
     <title>Code Collabs | Mentoring Scheme</title>
 </head>
 
@@ -36,15 +37,65 @@
         <div class="main-title">
             <h1>QUICK INTERVIEW</h1>
         </div>
+        <!--
         <div class="content-interview">
             <div class="box1-interview">
-                <h1>Questions <span>for</span> mentors</h1>
-                 <input class="btn" type="button" value="Next">
+                <div class="page">
+                    <h1>Questions <span>for</span> mentors</h1>
+                </div>
+                <div class="page">
+                    <h1>Questions <span>for</span> mentors</h1>
+                </div>
+                <div class="page">
+                    <h1>Questions <span>for</span> mentors</h1>
+                </div>
             </div>
             <div class="box2-interview" data-sal-duration="1100" data-sal="slide-up" data-sal-delay="300" data-sel-easing="ease-out-bounce">
                 <h1>Questions <span>for</span> mentees</h1>
-                <input class="btn" type="button" value="Next">
+                <input class="btn2-interview" type="button" value="Start">
             </div>
+        </div>-->
+
+        <div class="mentor-interview">
+            <div class="q1">
+                <h1>Questions <span>for</span> mentors</h1>
+            </div>
+            <div class="q2">
+                <h2>Questions <span>for</span> mentors</h2>
+                <p>WHY WOULD YOU LIKE A MENTOR?</p>
+                <input type="text" id="a2" name="fname">
+            </div>
+            <div class="q3">
+                <h2>Questions <span>for</span> mentors</h2>
+                   <p>WHAT YOU WANT IN A MENTOR?</p>
+                <input type="text" id="a2" name="fname">
+            </div>
+            <div class="q4">
+                <h2>Questions <span>for</span> mentors</h2>
+                   <p>WHICH OF THE MENTORS LISTED,<br> 
+                       WOULD YOU LIKE AS YOUR MENTOR?</p>
+                <input type="text" id="a2" name="fname">
+            </div>
+            <div class="q5">
+                <h2>Questions <span>for</span> mentors</h2>
+                   <p>BACKGROUND OF YOUR CAREER/EXPERIENCE</p>
+                <input type="text" id="a2" name="fname">
+            </div>
+            <div class="q6">
+                <h2>Questions <span>for</span> mentors</h2>
+                   <p>WHERE DO YOU WANT TO GO WITH YOUR CAREER GOALS?</p>
+                <input type="text" id="a2" name="fname">
+            </div>
+               <div class="q7">
+                <h2>Questions <span>for</span> mentors</h2>
+                   <p>WHERE DO YOU SEE YOURSELF<br> IN 5 YEARS TIME?</p>
+                <input type="text" id="a2" name="fname">
+            </div>
+            
+        </div>
+
+        <div class="mentee-interview">
+
         </div>
         <div class="footer">
             <p class="footer-title newsletter">Subscribe to our newsletter</p>
@@ -64,10 +115,20 @@
         </div>
 
 
+
         <script src="../node_modules/sal.js/dist/sal.js">
         </script>
+
         <script>
             sal();
         </script>
     </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/custom-interview.js"></script>
+
+
 </body></html>
