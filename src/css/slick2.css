@@ -134,7 +134,7 @@
     position: absolute;
     top: 10.4em;
     left: 0;
-    color: black;
+    color: white;
     z-index: 999;
     -webkit-text-stroke: 1px white;
     width: 15%;
@@ -152,7 +152,7 @@
     position: absolute;
     right: 0.2em;
     font-size: 3em;
-    color: black;
+    color: white;
     -webkit-text-stroke: 1px white;
     z-index: 999;
     top: 10.4em;

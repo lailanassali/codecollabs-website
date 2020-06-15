@@ -19,9 +19,14 @@
 }
 
 
-.home-background,
-.interview-background {
+.home-background {
     background: white;
+    margin: 0;
+    padding: 0;
+}
+
+.interview-background {
+    background: black;
     margin: 0;
     padding: 0;
 }
@@ -227,7 +232,12 @@
 .mentor-interview {
 
     .q1,
-    .q2, .q3, .q4, .q5, .q6, .q7 {
+    .q2,
+    .q3,
+    .q4,
+    .q5,
+    .q6,
+    .q7 {
 
         h1 {
             color: #333333;
@@ -242,34 +252,51 @@
         background-color: #10949A;
     }
 
-    .q1{
+    .q1 {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 9.25em 15px;
+        padding: 10.6em 15px;
         margin: 0;
 
 
     }
 
-    .q2, .q3, .q4, .q5, .q6, .q7 {
+    .q2,
+    .q3,
+    .q4,
+    .q5,
+    .q6,
+    .q7 {
         padding: 1em 15px;
         text-align: center;
-        
-        h2, p {
+
+        h2,
+        p {
             font-family: IntegralR;
             margin-left: 1em
         }
-        
 
-        #a2 {
+
+        #a2,
+        #a3,
+        #a4,
+        #a5,
+        #a6,
+        #a7, #m2,
+        #m3,
+        #m4,
+        #m5,
+        #m6,
+        #m7 {
             margin-top: 1em;
             padding: 7em 8.7em;
             background: #EDEDED;
             border: none;
+            margin-bottom: 5em;
 
         }
-        
+
         p {
             margin-top: 2em;
         }
@@ -279,6 +306,82 @@
 
 }
 
+.mentee-interview {
+
+    .q1,
+    .q2,
+    .q3,
+    .q4,
+    .q5,
+    .q6,
+    .q7 {
+
+        h1 {
+            color: #333333;
+            text-align: center;
+            font-family: IntegralR;
+        }
+
+        span {
+            color: white;
+        }
+
+        background-color: #DCED31;
+    }
+
+    .q1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10.6em 15px;
+        margin: 0;
+
+
+    }
+
+    .q2,
+    .q3,
+    .q4,
+    .q5,
+    .q6,
+    .q7 {
+        padding: 1em 15px;
+        text-align: center;
+
+        h2,
+        p {
+            font-family: IntegralR;
+            margin-left: 1em
+        }
+
+
+        #a2,
+        #a3,
+        #a4,
+        #a5,
+        #a6,
+        #a7,  #m2,
+        #m3,
+        #m4,
+        #m5,
+        #m6,
+        #m7 {
+            margin-top: 1em;
+            padding: 7em 8.7em;
+            background: #EDEDED;
+            border: none;
+            margin-bottom: 5em;
+
+        }
+
+        p {
+            margin-top: 2em;
+        }
+
+    }
+
+
+}
 
 
 /** INTERVIEW PAGE 
@@ -458,7 +561,7 @@
     z-index: 999;
     top: 2.6em;
     width: 15%;
-   
+
 
 
 }
@@ -563,7 +666,7 @@
         color: black;
         text-decoration: none;
         cursor: pointer;
-        padding: 0.4em 3em;
+        padding: 0.4em;
         font-size: 0.7em;
         border: solid white;
         text-transform: uppercase;
