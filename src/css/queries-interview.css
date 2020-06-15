@@ -1,37 +1,22 @@
-@media only screen and (min-width: 414px) {
-  /* line 12, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/queries-interview.scss */
-  .mentor-interview .q2 #a2, .mentor-interview .q2 #a3, .mentor-interview .q2 #a4, .mentor-interview .q2 #a5, .mentor-interview .q2 #a6, .mentor-interview .q2 #a7,
-  .mentor-interview .q3 #a2,
-  .mentor-interview .q3 #a3,
-  .mentor-interview .q3 #a4,
-  .mentor-interview .q3 #a5,
-  .mentor-interview .q3 #a6,
-  .mentor-interview .q3 #a7,
-  .mentor-interview .q4 #a2,
-  .mentor-interview .q4 #a3,
-  .mentor-interview .q4 #a4,
-  .mentor-interview .q4 #a5,
-  .mentor-interview .q4 #a6,
-  .mentor-interview .q4 #a7,
-  .mentor-interview .q5 #a2,
-  .mentor-interview .q5 #a3,
-  .mentor-interview .q5 #a4,
-  .mentor-interview .q5 #a5,
-  .mentor-interview .q5 #a6,
-  .mentor-interview .q5 #a7,
-  .mentor-interview .q6 #a2,
-  .mentor-interview .q6 #a3,
-  .mentor-interview .q6 #a4,
-  .mentor-interview .q6 #a5,
-  .mentor-interview .q6 #a6,
-  .mentor-interview .q6 #a7,
-  .mentor-interview .q7 #a2,
-  .mentor-interview .q7 #a3,
-  .mentor-interview .q7 #a4,
-  .mentor-interview .q7 #a5,
-  .mentor-interview .q7 #a6,
-  .mentor-interview .q7 #a7 {
-    padding: 8em 10em;
-    margin-bottom: 7em; } }
+@media only screen and (min-width: 411px) {
 
-/*# sourceMappingURL=queries-interview.css.map */
+
+    .mentor-interview .q2 #a2,
+    .mentor-interview .q3 #a3,
+    .mentor-interview .q4 #a4,
+    .mentor-interview .q5 #a5,
+    .mentor-interview .q6 #a6,
+    .mentor-interview .q7 #a7 {
+        padding: 8em 10em;
+    }
+
+    .mentee-interview .q2 #m2,
+    .mentee-interview .q3 #m3,
+    .mentee-interview .q4 #m4,
+    .mentee-interview .q5 #m5,
+    .mentee-interview .q6 #m6,
+    .mentee-interview .q7 #m7 {
+        padding: 8em 10em;
+    }
+
+}
