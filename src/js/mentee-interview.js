@@ -7,12 +7,39 @@ $('.mentee-interview').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   responsive: [
+           {
+      breakpoint: 1800,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: false,
+        dots: false
+      }
+    },
+          {
+      breakpoint: 1600,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: false,
+        dots: false
+      }
+    },
+       {
+      breakpoint: 1400,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: false,
+        dots: false
+      }
+    },
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: false,
         dots: false
       }
     },
