@@ -45,6 +45,65 @@
 
 .wrapper {
     width: 100vw;
+
+
+    .navbar {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+        
+    }
+
+    .nav-link {
+        color: white;
+        position: relative;
+    }
+
+    .nav-link::before {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        position: absolute;
+        bottom: -6px;
+        transform: scaleX(0);
+        transition: transform 0.5s;
+    }
+
+    .nav-link:hover::before {
+        transform: scaleX(1);
+    }
+
+    .nav-list {
+        display: none;
+        background: black;
+        z-index: 100;
+
+    }
+
+    .nav-item {
+        list-style: none;
+        margin: 40px;
+        font-family: NeueMetanaR;
+        color: white;
+
+    }
+
+    .nav-item a {
+        text-decoration: none;
+    }
+
+    .nav-item a:hover {
+        text-decoration-color: white;
+
+    }
+
 }
 
 .header {
@@ -56,24 +115,12 @@
     background-image: url(/src/img/hero.png);
     background-size: cover;
     padding: 1.5em;
+   
 
     .logo {
         width: 40%;
         background: none;
     }
-
-
-    .navbar {
-      /**  width: 100%;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        right: 0;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        transition: right 0.8s cubic-bezier(1, 0, 0, 1);**/
-        
 
         .hamburger-menu {
             width: 35px;
@@ -85,13 +132,14 @@
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            
+            z-index: 20px;
 
             .line {
                 width: 100%;
                 height: 3px;
                 background: white;
                 transition: all 0.8s;
+           
             }
             
             .change {
@@ -112,56 +160,14 @@
 
 
         }
-
-        .nav-link {
-            color: white;
-            position: relative;
-        }
-
-        .nav-link::before {
-            content: "";
-            width: 100%;
-            height: 2px;
-            background-color: white;
-            position: absolute;
-            bottom: -6px;
-            transform: scaleX(0);
-            transition: transform 0.5s;
-        }
-
-        .nav-link:hover::before {
-            transform: scaleX(1);
-        }
-
-        .nav-list {
-            display: none;
-            background: black;
-        }
-
-        .nav-item {
-            list-style: none;
-            margin: 40px;
-            font-family: NeueMetanaR;
-            color: white;
-
-        }
-
-        .nav-item a {
-            text-decoration: none;
-        }
-
-        .nav-item a:hover {
-            text-decoration-color: white;
-
-        }
-
-    }
+  
 
     .header-title {
         color: white;
         font-family: NeueMetanaB;
         line-height: 30px;
         margin-top: 4em;
+        grid-column: 1;
 
     }
 
