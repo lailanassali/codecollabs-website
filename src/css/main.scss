@@ -62,6 +62,101 @@
         background: none;
     }
 
+
+    .navbar {
+      /**  width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        transition: right 0.8s cubic-bezier(1, 0, 0, 1);**/
+        
+
+        .hamburger-menu {
+            width: 35px;
+            height: 30px;
+            position: fixed;
+            right: 30px;
+            top: 30px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            
+
+            .line {
+                width: 100%;
+                height: 3px;
+                background: white;
+                transition: all 0.8s;
+            }
+            
+            .change {
+                right: 0;
+            }
+
+            .change .line-1 {
+                transform: rotateZ(-45deg) translate(-8px, 6px);
+            }
+
+            .change .line-2 {
+                opacity: 0;
+            }
+
+            .change .line-3 {
+                transform: rotateZ(45deg) translate(-8px, -6px);
+            }
+
+
+        }
+
+        .nav-link {
+            color: white;
+            position: relative;
+        }
+
+        .nav-link::before {
+            content: "";
+            width: 100%;
+            height: 2px;
+            background-color: white;
+            position: absolute;
+            bottom: -6px;
+            transform: scaleX(0);
+            transition: transform 0.5s;
+        }
+
+        .nav-link:hover::before {
+            transform: scaleX(1);
+        }
+
+        .nav-list {
+            display: none;
+            background: black;
+        }
+
+        .nav-item {
+            list-style: none;
+            margin: 40px;
+            font-family: NeueMetanaR;
+            color: white;
+
+        }
+
+        .nav-item a {
+            text-decoration: none;
+        }
+
+        .nav-item a:hover {
+            text-decoration-color: white;
+
+        }
+
+    }
+
     .header-title {
         color: white;
         font-family: NeueMetanaB;
@@ -119,7 +214,8 @@
 }
 
 .main-title h1,
-.main-title-mentors h1, .main-title-interview h1 {
+.main-title-mentors h1,
+.main-title-interview h1 {
     font-family: NeueMetanaB;
     color: white;
     text-align: center;
@@ -288,7 +384,8 @@
         #a4,
         #a5,
         #a6,
-        #a7, #m2,
+        #a7,
+        #m2,
         #m3,
         #m4,
         #m5,
@@ -365,7 +462,8 @@
         #a4,
         #a5,
         #a6,
-        #a7,  #m2,
+        #a7,
+        #m2,
         #m3,
         #m4,
         #m5,

@@ -70,6 +70,53 @@
 
 
 @media only screen and (min-width: 1100px) {
+        
+    .header .logo {
+        width: 18%;
+    }
     
- 
+    .header .header-title {
+        font-size: 2em;
+        line-height: 65px;
+    }
+    
+    .header .header-text p {
+        font-size: 1.8em;
+
+    }
+    
+    .header .header-btn .btn {
+        padding: 0.6em 3em;
+        font-size: 0.9em;
+    }
+    
+    .header .icon {
+        bottom: -11.3em;
+        width: 14%;
+        position: absolute;
+    }
+    
+    .main-title-interview h1 {
+        font-size: 3em;
+        padding-bottom: 0.4em;
+    }
+    
+    .slick-next:after {
+        top: 3.8em !important;
+        right: -1.3em!important;
+        font-size: 5em !important;
+    }
+    
+    .slick-prev:after {
+       top: 4em !important;
+        font-size: 4.8em !important;
+        left: -1.6em !important;
+    }
+    
+    .footer .text-btn {
+        width: 10%;
+        justify-self: start;
+        margin-left: 1em;
+        font-size: 0.8em;
+    }
 }
