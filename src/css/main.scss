@@ -114,6 +114,7 @@
     background-color: #10949A;
     background-image: url(/src/img/hero.png);
     background-size: cover;
+    background-position: center;
     padding: 1.5em;
    
 
@@ -646,12 +647,13 @@
     content: '<';
     font-size: 6em;
     position: absolute;
-    top: 2.4em;
+    top: 3.5em;
     left: 0;
-    color: white;
+    color: #10949A;
     z-index: 999;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px white;
     width: 15%;
+    cursor: pointer;
 
 }
 
@@ -665,19 +667,24 @@
     position: absolute;
     right: 0;
     font-size: 6em;
-    color: white;
-    -webkit-text-stroke: 1px black;
+    color: #10949A;
+    -webkit-text-stroke: 1px white;
     z-index: 999;
-    top: 2.6em;
+    top: 3.5em;
     width: 15%;
-
-
-
+    cursor: pointer;
 }
 
 .slick-disabled {
     opacity: 30%;
+}
 
+.ui-mentors {
+    .item {
+        img {
+            
+        }
+    }
 }
 
 .footer {
