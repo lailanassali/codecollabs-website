@@ -5,6 +5,10 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
+    
+    .header-text p {
+        font-size: 1.2em !important;
+    }
 
 }
 
@@ -22,9 +26,6 @@
         background-position: center;
     }
 
-    .header .logo {
-        width: 25%;
-    }
 
     .header-title h1 {
         font-size: 2.5em;
@@ -38,7 +39,7 @@
     }
 
     .header-text p {
-        font-size: 1em !important;
+        font-size:1.2em !important;
     }
 
     .header-btn {
@@ -58,4 +59,38 @@
     }
 
 }
+
+@media only screen and (min-width: 1090px) {
+    
+   
+   
+    .box1, .box2, .content .box3, .box4 {
+        height: 20em;
+    }
+
+    
+    .header-title h1 {
+        font-size: 3.5em;
+        margin-top: 0.4em;
+    }
+    
+    .header .icon {
+        bottom: -10.3em;
+        width: 12%;
+
+    }
+    
+    .header-text {
+        font-size: 1.5em;
+    }
+    
+    .box1 ul li, .box2 ul li, .box3 ul li, .box4 ul li {
+        font-size: 1.2em;
+    }
+    
+    .footer-logo {
+        width: 5% !important;
+    }
+}
+
 
