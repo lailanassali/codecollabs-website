@@ -9,6 +9,16 @@
     .header-text p {
         font-size: 1.2em !important;
     }
+    
+    .footer .text-btn {
+        justify-self: start;
+        margin-left: 12px;
+        font-size: 1em;
+    }
+    
+    .footer-logo {
+        width: 13% !important;
+    }
 
 }
 
