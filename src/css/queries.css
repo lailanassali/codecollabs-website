@@ -40,12 +40,13 @@
     .header-title h1 {
         font-size: 4em;
         line-height: 1em;
+        margin-top: 2em;
     }
 
-      .header-text p {
+    .header-text p {
         font-size: 2em !important;
     }
-    
+
 
     .header-btn {
         grid-column: 1;
@@ -62,26 +63,32 @@
     .main-title {
         font-size: 1.8em;
     }
-    
-     .box1, .box2, .box3, .box4 {
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
         height: 25em;
     }
-    
-    .box3 ul li, .box4 ul li {
-        font-size: 3em !important;
+
+    .box1 ul,
+    .box2 ul {
+        font-size: 1em !important;
+    }
+
+    .box3 p,
+    .box4 p {
+        font-size: 1em !important;
     }
 
     .footer-logo {
         width: 5% !important;
     }
-    
-    
-  
+
+
     .footer .text-btn {
-        width: 15%;
+        width: 20%;
     }
-    
+
 
 }
-
-
