@@ -1,21 +1,21 @@
 @media only screen and (min-width: 768px) {
-    
+
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
-    
+
     .header-text p {
         font-size: 1.2em !important;
     }
-    
+
     .footer .text-btn {
         justify-self: start;
         margin-left: 12px;
         font-size: 1em;
     }
-    
+
     .footer-logo {
         width: 13% !important;
     }
@@ -23,7 +23,7 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    
+
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -38,69 +38,50 @@
 
 
     .header-title h1 {
-        font-size: 2.5em;
+        font-size: 4em;
         line-height: 1em;
     }
 
-    .header .header-text {
-
-        grid-column: 1 / span 1;
-
+      .header-text p {
+        font-size: 2em !important;
     }
-
-    .header-text p {
-        font-size:1.2em !important;
-    }
+    
 
     .header-btn {
         grid-column: 1;
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
-    
+
+    .icon {
+        position: absolute;
+        width: 15%;
+        bottom: -12.5em !important;
+
+    }
+
     .main-title {
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
     
-    .footer .text-btn {
-        justify-self: start;
-        width: 20%;
-        margin-left: 10px;
-        font-size: 1em;
+     .box1, .box2, .box3, .box4 {
+        height: 25em;
     }
-
-}
-
-@media only screen and (min-width: 1090px) {
     
-   
-   
-    .box1, .box2, .content .box3, .box4 {
-        height: 20em;
+    .box3 ul li, .box4 ul li {
+        font-size: 3em !important;
     }
 
-    
-    .header-title h1 {
-        font-size: 3.5em;
-        margin-top: 0.4em;
-    }
-    
-    .header .icon {
-        bottom: -10.3em;
-        width: 12%;
-
-    }
-    
-    .header-text {
-        font-size: 1.5em;
-    }
-    
-    .box1 ul li, .box2 ul li, .box3 ul li, .box4 ul li {
-        font-size: 1.2em;
-    }
-    
     .footer-logo {
         width: 5% !important;
     }
+    
+    
+  
+    .footer .text-btn {
+        width: 15%;
+    }
+    
+
 }
 
 
