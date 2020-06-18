@@ -5,9 +5,9 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
-
+    
     .header-text p {
-        font-size: 1.2em !important;
+        font-size: 1em !important;
     }
 
     .footer .text-btn {
@@ -38,13 +38,12 @@
 
 
     .header-title h1 {
-        font-size: 4em;
-        line-height: 1em;
-        margin-top: 2em;
+        font-size: 4.8em !important;
+        line-height: 0.9em;
     }
 
     .header-text p {
-        font-size: 2em !important;
+        font-size: 1.9em !important;
     }
 
 
@@ -60,24 +59,17 @@
 
     }
 
-    .main-title {
+    .main-title, .main-title-mentors {
         font-size: 1.8em;
+       
     }
-
-    .box1,
-    .box2,
-    .box3,
-    .box4 {
-        height: 25em;
+    
+    .image {
+        height: 350px !important;
     }
 
     .box1 ul,
-    .box2 ul {
-        font-size: 1em !important;
-    }
-
-    .box3 p,
-    .box4 p {
+    .box2 ul, .box3 p, .box4 p {
         font-size: 1em !important;
     }
 

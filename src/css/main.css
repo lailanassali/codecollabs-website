@@ -654,7 +654,7 @@
   .profile span {
     font-family: IntegralR;
     color: white;
-    font-size: 1.5em; }
+    font-size: 1em; }
   /* line 601, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .profile p {
     color: white;
@@ -662,71 +662,80 @@
     position: relative;
     bottom: 1em;
     left: 0.7em;
-    font-size: 1.3em;
+    font-size: 1em;
     margin-bottom: 0; }
 
 /* line 614, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
 .item .status {
-  background: #CEDD7A;
+  background: #2ecc71;
+  /** #e74c3c for unavailable **/
   font-family: IntegralR;
-  font-size: 2.7em;
+  font-size: 1.5em;
   text-align: center;
   padding-top: 0.2em;
   padding-bottom: 0.6em;
   margin-top: 0;
   margin-bottom: 0; }
 
-/* line 629, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+/* line 630, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+.ui-mentors .item .image {
+  height: 400px;
+  overflow: hidden; }
+  /* line 632, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  .ui-mentors .item .image img {
+    object-fit: cover; }
+
+/* line 644, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
 .slick-slider {
   margin-bottom: 0; }
 
-/* line 633, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+/* line 648, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
 .slick-slide img {
   margin: 0 auto;
   width: 100%;
   margin-top: 2em; }
 
-/* line 642, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+/* line 657, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
 .slick-prev {
   visibility: hidden; }
 
-/* line 646, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+/* line 661, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
 .slick-prev:after {
   visibility: visible;
   content: '<';
-  font-size: 6em;
+  font-size: 4em;
   position: absolute;
-  top: 3.5em;
+  top: 4em;
   left: 0;
-  color: #10949A;
+  color: white;
   z-index: 999;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px black;
   width: 15%;
   cursor: pointer; }
 
-/* line 661, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+/* line 676, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
 .slick-next {
   visibility: hidden; }
 
-/* line 665, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+/* line 680, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
 .slick-next:after {
   visibility: visible;
   content: '>';
   position: absolute;
   right: 0;
-  font-size: 6em;
-  color: #10949A;
-  -webkit-text-stroke: 1px white;
+  font-size: 4em;
+  color: white;
+  -webkit-text-stroke: 1px black;
   z-index: 999;
-  top: 3.5em;
+  top: 4em;
   width: 15%;
   cursor: pointer; }
 
-/* line 679, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+/* line 694, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
 .slick-disabled {
   opacity: 30%; }
 
-/* line 691, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+/* line 706, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
 .footer {
   display: grid;
   grid-template-columns: 1fr;
@@ -734,17 +743,17 @@
   background-color: black;
   font-size: 14px;
   text-align: center; }
-  /* line 699, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 714, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .footer-title {
     color: white;
     font-family: NeueMetanaB;
     text-transform: uppercase; }
-  /* line 705, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 720, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .footer-name {
     font-family: NeueMetanaR;
     color: white;
     font-size: 10px; }
-  /* line 711, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 726, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .footer-text,
   .footer a {
     font-family: MontserratL;
@@ -752,32 +761,32 @@
     text-decoration: none;
     margin: 0;
     margin-bottom: 1em; }
-  /* line 721, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 736, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .newsletter {
     text-align: start;
     margin-left: 1em;
     margin-top: 3em; }
-  /* line 727, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 742, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .socials {
     margin-bottom: 0.7em; }
-  /* line 731, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 746, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .clamp {
     font-size: 10px;
     margin-bottom: 2.5em; }
-  /* line 736, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 751, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer ul {
     list-style-type: none;
     padding-left: 0;
     margin-top: 0; }
-  /* line 742, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 757, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer li {
     margin-bottom: 0.8em; }
-  /* line 746, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 761, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .footer-logo {
     width: 15%;
     justify-self: center;
     margin-bottom: 1em; }
-  /* line 752, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 767, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .text-input {
     margin-left: 1em;
     padding-bottom: 0.8em;
@@ -793,11 +802,11 @@
     background: black;
     margin-top: 0.5em;
     color: white; }
-  /* line 772, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 787, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .text-input::placeholder {
     color: white;
     font-family: MontserratL; }
-  /* line 777, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 792, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .text-btn {
     margin-bottom: 1.5em;
     font-family: NeueMetanaB;
@@ -813,7 +822,7 @@
     text-transform: uppercase;
     width: 30%;
     justify-self: center; }
-  /* line 796, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+  /* line 811, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .footer .text-btn:hover {
     background: none;
     color: white;
