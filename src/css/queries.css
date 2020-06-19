@@ -1,3 +1,22 @@
+@media only screen and (min-width: 320px) {
+    
+
+    .main-title-mentors h1 {
+        font-size: 1em;
+    }
+
+    .icon {
+        width: 35%;
+        bottom: -4em !important;
+    }
+    
+    .ui-title h1 {
+        font-size: 2.5em !important;
+    }
+
+}
+
+
 @media only screen and (min-width: 768px) {
 
     .content {

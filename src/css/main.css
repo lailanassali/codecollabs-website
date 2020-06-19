@@ -654,7 +654,7 @@
   .profile span {
     font-family: IntegralR;
     color: white;
-    font-size: 1em; }
+    font-size: 1.2em; }
   /* line 601, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
   .profile p {
     color: white;
@@ -662,7 +662,7 @@
     position: relative;
     bottom: 1em;
     left: 0.7em;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-bottom: 0; }
 
 /* line 614, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */

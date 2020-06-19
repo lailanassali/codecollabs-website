@@ -10,7 +10,7 @@
                         settings: {
                             slidesToShow: 3,
                             slidesToScroll: 3,
-                            infinite: true,
+                            infinite: false,
                             dots: false
                         }
                     },
@@ -19,7 +19,7 @@
                         settings: {
                             slidesToShow: 2,
                             slidesToScroll: 2,
-                            infinite: true,
+                            infinite: false,
                             dots: false
                         }
                     },
