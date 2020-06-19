@@ -36,7 +36,7 @@
     background-image:
         linear-gradient(to bottom,
             #26A9A2,
-            white 13%);
+            white 16%);
     margin: 0;
     padding: 0;
 
@@ -231,6 +231,11 @@
     margin: 0;
     padding: 0.9em;
     justify-content: center;
+}
+
+.main-title-mentors span {
+    font-size: 0.5em;
+    font-family: NeueMetanaR;
 }
 
 .main-title-interview h1 {

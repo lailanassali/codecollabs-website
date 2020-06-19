@@ -6,8 +6,8 @@
     }
 
     .icon {
-        width: 35%;
-        bottom: -4em !important;
+        width: 25%;
+        bottom: -5.5em !important;
     }
     
     .ui-title h1 {
@@ -28,6 +28,10 @@
     .header-text p {
         font-size: 1em !important;
     }
+    
+      .main-title-mentors h1 {
+        font-size: 1.5em;
+    }
 
     .footer .text-btn {
         justify-self: start;
@@ -38,10 +42,24 @@
     .footer-logo {
         width: 13% !important;
     }
+    
+        .ui-title h1 {
+        font-size: 4em !important;
+    }
+
 
 }
 
 @media only screen and (min-width: 1024px) {
+    
+    .mentors-background {
+    background-image:
+        linear-gradient(to bottom,
+            #26A9A2,
+            white 25%);
+
+
+}
 
     .content {
         display: grid;
@@ -79,9 +97,10 @@
     }
 
     .main-title, .main-title-mentors {
-        font-size: 1.8em;
+        font-size: 1.5em;
        
     }
+    
     
     .image {
         height: 350px !important;
