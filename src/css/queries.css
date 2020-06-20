@@ -16,6 +16,12 @@
 
 }
 
+@media only screen and (min-width: 600px) {
+    .item {
+        padding: 1em;
+    }
+}
+
 
 @media only screen and (min-width: 768px) {
 
@@ -47,6 +53,9 @@
         font-size: 4em !important;
     }
 
+    .item {
+        padding: 1em;
+    }
 
 }
 
@@ -60,6 +69,10 @@
 
 
 }
+    
+        .item {
+        padding: 1em;
+    }
 
     .content {
         display: grid;
