@@ -9,6 +9,15 @@
     .header-icon-interview .icon {
         width: 30%;
         bottom: -5em !important;
+    }
+
+
+    .slick-slider {
+        margin-bottom: -8.5em;
+    }
+    
+    .footer {
+        margin-top: 6em;
 
     }
 
@@ -18,6 +27,19 @@
 @media only screen and (min-width: 411px) {
 
 
+
+
+
+    .header-icon-interview .icon {
+        width: 8em;
+        bottom: -5em !important;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 700px) {
 
 
 
@@ -48,7 +70,8 @@
     .mentor-interview .q4,
     .mentor-interview .q5,
     .mentor-interview .q6,
-    .mentor-interview .q7 {
+    .mentor-interview .q7,
+    .mentor-interview .q8{
         padding: 1.9em 15px;
     }
 
@@ -61,7 +84,8 @@
     .mentee-interview .q4,
     .mentee-interview .q5,
     .mentee-interview .q6,
-    .mentee-interview .q7 {
+    .mentee-interview .q7,
+    .mentor-interview .q8{
         padding: 1.9em 15px;
     }
 
@@ -70,11 +94,34 @@
         bottom: -7em !important;
     }
 
+   /** .nav-list,
+    .hamburger-menu2,
+    .hamburger-menu .line {
+        display: none !important;
+    }
+    .header .web-nav {
+        display: contents;
+    }
+
+    .header .web-nav li {
+        display: inline-block;
+    }
+
+    .header .web-nav a {
+
+        font-family: NeueMetanaR;
+        color: white;
+        text-decoration: none;
+        padding: em;
+
+    } **/
+    
+    .footer {
+        margin-top: 8em;
+
+    }
+
 }
-
-@media only screen and (min-width: 1024px) {}
-
-
 
 @media only screen and (min-width: 1100px) {
 
@@ -125,6 +172,28 @@
         width: 14em;
         bottom: -8.5em !important;
     }
+ /** 
+    .nav-list,
+    .hamburger-menu2,
+    .hamburger-menu .line {
+        display: none !important;
+    }
 
+    .header .web-nav {
+        display: contents;
+    }
+
+    .header .web-nav li {
+        display: inline-block;
+    }
+
+    .header .web-nav a {
+
+        font-family: NeueMetanaR;
+        color: white;
+        text-decoration: none;
+        padding: em;
+
+    }**/
 
 }

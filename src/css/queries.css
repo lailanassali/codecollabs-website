@@ -1,15 +1,14 @@
 @media only screen and (min-width: 320px) {
-    
+
 
     .main-title-mentors h1 {
         font-size: 1em;
     }
 
-    .icon{
+    .icon {
         width: 25%;
-        bottom: -5.5em !important;
     }
-    
+
     .ui-title h1 {
         font-size: 2.5em !important;
     }
@@ -20,8 +19,11 @@
     .item {
         padding: 1em;
     }
+    
+    .icon {
+        width: 10em;
+    }
 }
-
 
 @media only screen and (min-width: 768px) {
 
@@ -30,12 +32,12 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
-    
+
     .header-text p {
         font-size: 1em !important;
     }
-    
-      .main-title-mentors h1 {
+
+    .main-title-mentors h1 {
         font-size: 1.5em;
     }
 
@@ -48,29 +50,54 @@
     .footer-logo {
         width: 13% !important;
     }
-    
-        .ui-title h1 {
+
+    .ui-title h1 {
         font-size: 4em !important;
     }
 
     .item {
         padding: 1em;
     }
+    
+    .icon {
+        width: 10em;
+    }
+
+  /**  .nav-list,
+    .hamburger-menu2,
+    .hamburger-menu .line {
+        display: none !important;
+    }
+    
+        .header .web-nav {
+        display: contents;
+    }
+    .header .web-nav li {
+        display: inline-block;
+    }
+
+    .header .web-nav a {
+  
+        font-family: NeueMetanaR;
+        color: white;
+        text-decoration: none;
+ 
+    }**/
 
 }
 
 @media only screen and (min-width: 1024px) {
-    
+
     .mentors-background {
-    background-image:
-        linear-gradient(to bottom,
-            #26A9A2,
-            white 25%);
+        background-image:
+            linear-gradient(to bottom,
+                #26A9A2,
+                white 25%);
 
 
-}
-    
-        .item {
+    }
+
+    .item {
         padding: 1em;
     }
 
@@ -104,23 +131,26 @@
 
     .icon {
         position: absolute;
-        width: 15%;
-        bottom: -12.5em !important;
+        width: 10em;
+        bottom: -10em !important;
 
     }
 
-    .main-title, .main-title-mentors {
+    .main-title,
+    .main-title-mentors {
         font-size: 1.5em;
-       
+
     }
-    
-    
+
+
     .image {
         height: 350px !important;
     }
 
     .box1 ul,
-    .box2 ul, .box3 p, .box4 p {
+    .box2 ul,
+    .box3 p,
+    .box4 p {
         font-size: 1em !important;
     }
 
@@ -131,6 +161,28 @@
 
     .footer .text-btn {
         width: 20%;
+    }
+
+    .nav-list,
+    .hamburger-menu2,
+    .hamburger-menu .line {
+        display: none !important;
+    }
+    
+        .header .web-nav {
+        display: contents;
+    }
+    .header .web-nav li {
+        display: inline-block;
+    }
+
+    .header .web-nav a {
+
+        font-family: NeueMetanaR;
+        color: white;
+        text-decoration: none;
+        padding: em;
+
     }
 
 

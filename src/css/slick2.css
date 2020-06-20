@@ -106,6 +106,7 @@
     display: block;
     padding-left: 0;
     padding-right: 2em;
+    margin-top: 2.5em;
 
 }
 .slick-loading .slick-slide
@@ -134,7 +135,7 @@
     content: '<';
     font-size: 3em;
     position: absolute;
-    top: 10.4em;
+    top: 11.75em;
     left: 0;
     color: white;
     z-index: 10;
@@ -157,10 +158,8 @@
     color: white;
     -webkit-text-stroke: 1px white;
     z-index: 10;
-    top: 10.4em;
+    top: 11.75em;
     width: 15%;
-
-
 }
 
 .slick-disabled {

@@ -1,0 +1,16 @@
+.icon {
+            bottom: -5.2em !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .icon {
+          bottom: -8em !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .icon {
+        width: 15em;
+          bottom: -11.5em !important;
+    }
+}
