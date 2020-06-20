@@ -9,6 +9,7 @@
     .header-icon-interview .icon {
         width: 30%;
         bottom: -5em !important;
+
     }
 
 }
@@ -17,23 +18,8 @@
 @media only screen and (min-width: 411px) {
 
 
-    .mentor-interview .q2 #a2,
-    .mentor-interview .q3 #a3,
-    .mentor-interview .q4 #a4,
-    .mentor-interview .q5 #a5,
-    .mentor-interview .q6 #a6,
-    .mentor-interview .q7 #a7 {
-        padding: 8em 10em;
-    }
 
-    .mentee-interview .q2 #m2,
-    .mentee-interview .q3 #m3,
-    .mentee-interview .q4 #m4,
-    .mentee-interview .q5 #m5,
-    .mentee-interview .q6 #m6,
-    .mentee-interview .q7 #m7 {
-        padding: 8em 10em;
-    }
+
 
     .header-icon-interview .icon {
         width: 8em;
@@ -49,14 +35,13 @@
     .main-title-interview h1 {
         font-size: 2.5em;
         margin: 0;
-        
+
     }
 
     .mentor-interview .q1 {
         padding: 12.6em 15px;
     }
-    
-  
+
 
     .mentor-interview .q2,
     .mentor-interview .q3,
@@ -87,12 +72,7 @@
 
 }
 
-@media only screen and (min-width: 1024px) {
-    
-  
-
-    
-}
+@media only screen and (min-width: 1024px) {}
 
 
 
@@ -140,8 +120,8 @@
         margin-left: 1em;
         font-size: 0.8em;
     }
-    
-        .header-icon-interview .icon {
+
+    .header-icon-interview .icon {
         width: 14em;
         bottom: -8.5em !important;
     }

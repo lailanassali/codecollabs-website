@@ -57,7 +57,6 @@
         justify-content: center;
         text-align: center;
         transition: right 0.8s cubic-bezier(1, 0, 0, 1);
-        
     }
 
     .nav-link {
@@ -80,13 +79,6 @@
         transform: scaleX(1);
     }
 
-    .nav-list {
-        display: none;
-        background: black;
-        z-index: 100;
-
-    }
-
     .nav-item {
         list-style: none;
         margin: 40px;
@@ -106,6 +98,124 @@
 
 }
 
+
+.wrapper {
+  width: 100vw;
+}
+
+.wrapper .navbar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+}
+
+.wrapper .nav-link {
+  color: white;
+  position: relative;
+}
+
+.wrapper .nav-link::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: -6px;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+/* line 79, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+.wrapper .nav-link:hover::before {
+  transform: scaleX(1);
+}
+/* line 83, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+.wrapper .nav-list {
+  display: none;
+  background: black;
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  height: 100vh;
+}
+/* line 90, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+.wrapper .nav-item {
+  list-style: none;
+  margin: 40px;
+  font-family: NeueMetanaR;
+  color: white;
+}
+/* line 98, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+.wrapper .nav-item a {
+  text-decoration: none;
+}
+/* line 102, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+.wrapper .nav-item a:hover {
+  text-decoration-color: white;
+}
+/* line 109, /Users/laila.katumba/Desktop/Projects/codecollabs-website/src/css/main.scss */
+.header {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  background-color: #10949a;
+  background-image: url(/src/img/hero.png);
+  background-size: cover;
+  padding: 1.5em;
+}
+
+.header .logo {
+  width: 40%;
+  background: none;
+}
+
+.header .hamburger-menu,
+.header .hamburger-menu2 {
+  width: 35px;
+  height: 30px;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 700;
+}
+
+.header .hamburger-menu .line,
+.hamburger-menu2 .lineX {
+  width: 100%;
+  height: 3px;
+  background: white;
+  transition: all 0.8s;
+}
+.header .hamburger-menu2 {
+  display: none;
+}
+.hamburger-menu2 .lineX:first-child {
+  transform: rotateZ(-45deg) translate(-8px, 6px);
+}
+.hamburger-menu2 .lineX:last-child {
+  transform: rotateZ(-135deg) translate(4px, 3px);
+}
+
+.wrapper .nav-list {
+    display: none;
+    background: black;
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    height: 100vh;
+}
+
 .header {
     display: grid;
     position: relative;
@@ -116,52 +226,52 @@
     background-size: cover;
     background-position: center;
     padding: 1.5em;
-   
+
 
     .logo {
         width: 7em;
         background: none;
     }
 
-        .hamburger-menu {
-            width: 35px;
-            height: 30px;
-            position: fixed;
-            right: 30px;
-            top: 30px;
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            z-index: 20px;
+    .hamburger-menu {
+        width: 35px;
+        height: 30px;
+        position: fixed;
+        right: 30px;
+        top: 30px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        z-index: 20px;
 
-            .line {
-                width: 100%;
-                height: 3px;
-                background: white;
-                transition: all 0.8s;
-           
-            }
-            
-            .change {
-                right: 0;
-            }
-
-            .change .line-1 {
-                transform: rotateZ(-45deg) translate(-8px, 6px);
-            }
-
-            .change .line-2 {
-                opacity: 0;
-            }
-
-            .change .line-3 {
-                transform: rotateZ(45deg) translate(-8px, -6px);
-            }
-
+        .line {
+            width: 100%;
+            height: 3px;
+            background: white;
+            transition: all 0.8s;
 
         }
-  
+
+        .change {
+            right: 0;
+        }
+
+        .change .line-1 {
+            transform: rotateZ(-45deg) translate(-8px, 6px);
+        }
+
+        .change .line-2 {
+            opacity: 0;
+        }
+
+        .change .line-3 {
+            transform: rotateZ(45deg) translate(-8px, -6px);
+        }
+
+
+    }
+
 
     .header-title {
         color: white;
@@ -169,7 +279,7 @@
         line-height: 30px;
         margin-top: 4em;
         grid-column: 1;
- 
+
     }
 
     .header-text {
@@ -317,7 +427,7 @@
         flex-direction: column;
         justify-content: center;
         padding: 3em 15px;
-         
+
 
         ul {
             text-align: center;
@@ -405,7 +515,7 @@
         #m6,
         #m7 {
             margin-top: 1em;
-            padding: 7em 8.7em;
+        
             background: #EDEDED;
             border: none;
             margin-bottom: 5em;
@@ -483,7 +593,6 @@
         #m6,
         #m7 {
             margin-top: 1em;
-            padding: 7em 8.7em;
             background: #EDEDED;
             border: none;
             margin-bottom: 5em;
@@ -557,11 +666,12 @@
 .ui-mentors {
     .item {
         .image {
-         
             img {
-               object-fit: cover;
+                object-fit: cover;
+                height: 400px;
             }
-              height: 400px;
+
+            height: 400px;
             overflow: hidden;
         }
 
@@ -626,9 +736,7 @@
 
 .ui-mentors {
     .item {
-        img {
-            
-        }
+        img {}
     }
 }
 

@@ -106,6 +106,7 @@
     display: block;
     padding-left: 0;
     padding-right: 2em;
+
 }
 .slick-loading .slick-slide
 {
@@ -166,3 +167,6 @@
     opacity: 30%;
 
 }
+
+
+

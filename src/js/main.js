@@ -3,6 +3,7 @@ var hamburger1 = document.querySelector(".hamburger-menu");
 var hamburger2 = document.querySelector(".hamburger-menu2");
 
 var navList = document.querySelector(".nav-list");
+
 menuIcon.addEventListener("click", () => {
   // navbar.classList.toggle('change');
 
